@@ -88,6 +88,7 @@ def all_holidays_with_bbq(holiday_hash)
       array = holiday.to_s.split("_")
       finalHoliday = []
       array.each do|x|
+      if x == "BBQ"
       finalHoliday << x.capitalize!
     end
     holiday = finalHoliday.join(" ")
