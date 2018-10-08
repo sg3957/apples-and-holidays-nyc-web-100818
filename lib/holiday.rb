@@ -92,7 +92,7 @@ def all_holidays_with_bbq(holiday_hash)
       finalHoliday << x.capitalize!
     end
     holiday = finalHoliday.join(" ")
-    supply = supply.join(", ")
+    supply = supply.join(",")
     puts "  #{holiday}: #{supply}"
   end
 end
